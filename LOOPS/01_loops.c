@@ -28,11 +28,24 @@
 
 //quiz to print natural number 10 to 20
 
+// #include<stdio.h>
+// int main(){
+
+//     for(int i=20; i>=10; i--){
+//         printf("hello\n");
+//     }
+// return 0;
+// }
+
+//do while loop -- atleast once time code will execute
+
 #include<stdio.h>
 int main(){
-
-    for(int i=10; i<=20; i++){
-        printf("%d\n", i);
-    }
+    
+    int i = 1;
+    do{
+        printf("%d\n",i);
+        i++;
+    }while(i < 5);
 return 0;
 }
